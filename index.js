@@ -1,5 +1,5 @@
 import $ from 'jquery';
-var url = 'https://restcountries.eu/rest/v2/name/';
+var url = 'https://restcountries.com/v3.1/name/{name}?fullText=true';
 var countriesList = $('#countries');
 
 $('#country-name-form').submit(searchCountries);
